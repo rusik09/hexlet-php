@@ -1,0 +1,19 @@
+{
+    "name": "rusik/hexlet-php",
+    "description": "Study project on hexlet",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rusik\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ruslan Lakazov",
+            "email": "lakazov77@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "*"
+    }
+}
