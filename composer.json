@@ -3,6 +3,9 @@
     "description": "Study project on hexlet",
     "license": "MIT",
     "autoload": {
+	"files": [
+	    "src/Runner.php"
+	],
         "psr-4": {
             "Rusik\\HexletPhp\\": "src/"
         }
@@ -13,7 +16,11 @@
             "email": "lakazov77@gmail.com"
         }
     ],
-    "require": {
-        "illuminate/collections": "*"
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.10"
+    },
+    "scripts": {
+	"phpcs": "phpcs",
+	"phpcbf": "phpcbf"
     }
 }
